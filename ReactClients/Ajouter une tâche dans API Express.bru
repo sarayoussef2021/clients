@@ -1,0 +1,18 @@
+meta {
+  name: Ajouter une tâche dans API Express
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5000/api/tasks
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "Nouvelle tâche: Tester flux de communication entre 2 API",
+    "completed": false
+  }
+}
