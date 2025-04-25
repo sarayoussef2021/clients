@@ -1,7 +1,7 @@
 // services/authService.js
 import axios from "axios";
 
-const API_URL = "https://api-server-jade-xi.vercel.app/api/auth";
+const API_URL = "https://api-server-black.vercel.app/api/auth";
 
 export const authService = {
   signup: async (fullName, email, phone, password) => {
