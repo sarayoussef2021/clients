@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // L'URL de ton backend (changer si nécessaire)
-const API_URL = "https://api-server-jade-xi.vercel.app/api";
+const API_URL = "https://api-server-black.vercel.app/api";
 
 // Créer un client axios avec des en-têtes par défaut
 const apiClient = axios.create({
