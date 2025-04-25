@@ -2,7 +2,7 @@
 import axios from "axios";
 import { authService } from "./authService";
 
-const API_URL = "https://api-server-jade-xi.vercel.app/api/tasks";
+const API_URL = "https://api-server-black.vercel.app/api/tasks";
 
 const apiClient = axios.create({
   baseURL: API_URL,
